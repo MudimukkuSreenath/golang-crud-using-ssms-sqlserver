@@ -1,1 +1,5 @@
-select *from dept
+create table DEPT(DEPTNO smallint,DNAME varchar(20),LOC varchar(20))
+insert into DEPT values(10,ACCOUNTING,NEW YARK)
+insert into DEPT values(20,RESEARCH,DALLAS)                                                                
+insert into DEPT values(30,SALES,CHIKAGO)                                                                
+insert into DEPT values(40,OPRETIONS,BOSTON)                                                                
